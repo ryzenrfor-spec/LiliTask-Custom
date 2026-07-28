@@ -1,8 +1,8 @@
 {
   "orientation": "portrait",
   "id": "/?source=pwa",
-  "name": "LiliTask",
-  "short_name": "LiliTask",
+  "name": "YourTask",
+  "short_name": "YourTask",
   "description": "Aplikasi pengingat jadwal dan tugas harian anti-malas",
   "start_url": "/",
   "display": "standalone",
