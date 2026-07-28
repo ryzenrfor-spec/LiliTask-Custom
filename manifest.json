@@ -1,0 +1,22 @@
+{
+  "name": "JadwalKu X.4 SMAN 1 Kramat",
+  "short_name": "JadwalKu",
+  "description": "Aplikasi pengingat jadwal dan tugas kelas X.4 SMAN 1 Kramat",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0e1116",
+  "theme_color": "#15b8a6",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
