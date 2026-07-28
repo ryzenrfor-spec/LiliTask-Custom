@@ -1,22 +1,22 @@
-const CACHE_NAME = 'lilitask-cache-v1';
-const assetsToCache = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/script.js',
-  '/manifest.json'
+const CACHE_NAME = 'yourtask-cache-v1';
+const urlsToCache = [
+  './',
+  './index.html'
 ];
 
-// Install Service Worker & Cache Aset Utama
 self.addEventListener('install', (event) => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(assetsToCache);
+      return cache.addAll(urlsToCache);
     })
   );
 });
 
-// Fetch Aset dari Cache Saat Offline
+self.addEventListener('activate', (event) => {
+  event.waitUntil(clients.claim());
+});
+
 self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.match(event.request).then((response) => {
