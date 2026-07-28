@@ -5,7 +5,7 @@ const ASSETS_TO_CACHE = [
   './style.css',
   './script.js',
   './manifest.json',
-  './icon.jpeg'
+  './icon.png'
 ];
 
 // Install event: langsung skip waiting agar service worker baru langsung aktif
