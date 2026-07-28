@@ -1,4 +1,5 @@
-{
+{ 
+  "id": "/?source=pwa",
   "name": "YourTask",
   "short_name": "YourTask",
   "start_url": "./index.html",
