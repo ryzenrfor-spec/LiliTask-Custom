@@ -1,22 +1,18 @@
-{ 
+{
   "orientation": "portrait",
   "id": "/?source=pwa",
-  "name": "YourTask",
-  "short_name": "YourTask",
-  "start_url": "./index.html",
+  "name": "LiliTask",
+  "short_name": "LiliTask",
+  "description": "Aplikasi pengingat jadwal dan tugas harian anti-malas",
+  "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#4f46e5",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
   "icons": [
     {
-      "src": "icon.jpeg",
-      "sizes": "730x730",
-      "type": "image/jpeg"
-    },
-    {
-      "src": "icon.jpeg",
-      "sizes": "730x730",
-      "type": "image/jpeg"
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ]
 }
