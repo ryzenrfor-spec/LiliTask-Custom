@@ -1,4 +1,5 @@
 { 
+  "orientation": "portrait",
   "id": "/?source=pwa",
   "name": "YourTask",
   "short_name": "YourTask",
