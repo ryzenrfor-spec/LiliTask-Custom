@@ -8,7 +8,7 @@
     }
   ],
   "orientation": "portrait",
-  "id": "/?source=pwa",
+  "id": "./?source=pwa",
   "name": "YourTask",
   "short_name": "YourTask",
   "description": "Meet to YourTask, a LiliTask's new personal settings",
