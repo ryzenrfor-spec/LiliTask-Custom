@@ -12,7 +12,7 @@
   "name": "YourTask",
   "short_name": "YourTask",
   "description": "Meet to YourTask, a LiliTask's new personal settings",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
