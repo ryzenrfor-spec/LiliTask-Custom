@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  /* --- KONFIGURASI LOKAL --- */
+  /* --- LOCAL CONFIGURATION --- */
   var STORAGE_KEY = "yourtask_tugas_v1";
   var SCHEDULE_KEY = "yourtask_jadwal_v1";
   var USER_KEY = "yourtask_username";
@@ -93,7 +93,7 @@
     el.toast = document.getElementById("toast");
   }
 
-  /* --- LOAD & SAVE DATA (ANTI CACHE OVERWRITE) --- */
+  /* --- LOAD & SAVE DATA V2 --- */
   function muatProfil() {
     try {
       var savedUser = localStorage.getItem(USER_KEY);
