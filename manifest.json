@@ -1,26 +1,32 @@
 {
-  "screenshots": [
-    {
-      "src": "screenshot.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "form_factor": "narrow"
-    }
-  ],
-  "orientation": "portrait",
-  "id": "./?source=pwa",
   "name": "YourTask",
   "short_name": "YourTask",
   "description": "Meet to YourTask, a LiliTask's new personal settings",
-  "start_url": "./",
+  "id": "/YourTask/",
+  "start_url": "/YourTask/?source=pwa",
+  "scope": "/YourTask/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "/YourTask/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/YourTask/icon.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/YourTask/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
